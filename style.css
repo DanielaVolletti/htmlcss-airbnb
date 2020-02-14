@@ -8,3 +8,21 @@
   width: 100vw;
   height: 100vh;
 }
+
+#roma{
+  background-image: url('img/roma.jpg');
+  background-size: cover;
+  height: calc(100% / 3);
+  width: 100%;
+  position: relative;
+}
+
+.nome-citta{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
